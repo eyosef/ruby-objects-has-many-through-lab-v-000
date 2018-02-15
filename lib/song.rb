@@ -8,12 +8,13 @@ class Song
     @artist = []
   end
 
-  def genre(song)
-
-
+  def genre(genre)
+    genre.song = self
   end
 
-  def artist(song)
+  def artist(artist)
+    artist.song = self
+
   end
 
 end
