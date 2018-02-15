@@ -11,6 +11,8 @@ class Genre
     @songs << song
   end
 
-  def
+  def songs
+    @songs
+  end
 
 end
