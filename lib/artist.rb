@@ -14,7 +14,7 @@ class Artist
     song = self.song
     #@genres << songs.name
 
-    #binding.pry
+    binding.pry
 
     #song.add_song(self)
     #song = self.song
