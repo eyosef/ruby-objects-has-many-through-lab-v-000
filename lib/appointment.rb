@@ -6,7 +6,7 @@ attr_accessor :date, :doctor
     @date = date
     @doctor = doctor
     patient.add_appointment(self)
-    doctor = Doctor.new
+    doctor = Doctor.name
   end
 
 end
