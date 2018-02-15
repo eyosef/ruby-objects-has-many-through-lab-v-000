@@ -7,4 +7,7 @@ def initialize(date, doctor)
   @doctor = doctor
 end
 
+def patient (date, doctor)
+end
+
 end
