@@ -9,12 +9,4 @@ class Song
     artist.add_songs(self)
   end
 
-  def genre
-    #genre.add_songs(self)
-  end
-
-  def artist
-    #artist.add_songs(self)
-  end
-
 end
