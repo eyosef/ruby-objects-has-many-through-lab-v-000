@@ -9,8 +9,6 @@ attr_accessor :date, :doctor
   end
 
   def patient (date, doctor)
-
   end
 
-genre.add_song(self)
 end
