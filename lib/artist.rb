@@ -12,7 +12,6 @@ class Artist
     @songs << song
     song = self.song
 
-
     #binding.pry
 
     #song.add_song(self)
