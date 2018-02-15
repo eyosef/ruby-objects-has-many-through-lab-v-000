@@ -5,14 +5,14 @@ class Song
   def initialize(name, genre)
     @name = name
     @genre = genre
-    artist.add_songs(self)
   end
 
   def genre
-        genre.add_songs(self)
+    genre.add_songs(self)
   end
 
   def artist
+    artist.add_songs(self)
   end
 
 end
