@@ -1,2 +1,7 @@
 class Patient
-end 
+
+  attr :name
+
+  def initialize(name)
+  end
+end
