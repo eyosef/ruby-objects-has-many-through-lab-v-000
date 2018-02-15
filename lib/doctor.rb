@@ -11,4 +11,8 @@ class Doctor
     @appointments << appointment
   end
 
+  def appointments
+    @appointments
+  end
+
 end
