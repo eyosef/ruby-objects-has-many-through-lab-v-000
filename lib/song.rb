@@ -8,7 +8,7 @@ class Song
   end
 
   def genre
-    genre.add_songs(self)
+    #genre.add_songs(self)
   end
 
   def artist
