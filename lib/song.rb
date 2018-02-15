@@ -6,7 +6,7 @@ class Song
     @name = name
     @genre = genre
     genre.songs << self
-    artist.songs << self #do I need this?
+    #artist.songs << self #do I need this?
   end
 
 end
