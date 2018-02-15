@@ -5,6 +5,8 @@ class Song
   def initialize(name, genre)
     @name = name
     @genre = genre
+    genre.songs << self
+
     Genre.add_song(self)
     Artist.add_song(self)
   end
