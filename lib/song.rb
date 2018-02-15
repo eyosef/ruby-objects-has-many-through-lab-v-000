@@ -8,7 +8,7 @@ class Song
     @artist = []
   end
 
-  def genre
+  def genre(song)
 
   end
 
