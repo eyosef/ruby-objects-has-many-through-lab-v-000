@@ -12,13 +12,6 @@ class Artist
   def add_song(song)
     @songs << song
     song = self.songs #FIX
-    #@genres << songs.name
-
-    #binding.pry
-
-    #song.add_song(self)
-    #song = self.song
-    #song.artist = self
   end
 
   def songs
