@@ -8,7 +8,4 @@ attr_accessor :date, :doctor
     patient.add_appointment(self)
   end
 
-  def patient 
-  end 
-
 end
