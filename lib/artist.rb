@@ -25,8 +25,7 @@ class Artist
   end
 
   def genres
-    @genres << genre
-    @genres
+    @genres <<
   end
 
 end
