@@ -9,4 +9,10 @@ class Song
     artist.add_songs(self)
   end
 
+  def genre
+  end
+
+  def artist
+  end
+
 end
