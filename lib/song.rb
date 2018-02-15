@@ -12,7 +12,7 @@ class Song
   end
 
   def artist
-    Artist.new = self.artist
+    artist = self.artist
   end
 
 end
