@@ -9,12 +9,12 @@ class Song
   end
 
   def genre(genre)
+    @genre << genre
     genre.song = self
   end
 
   def artist(artist)
     artist.song = self
-
   end
 
 end
