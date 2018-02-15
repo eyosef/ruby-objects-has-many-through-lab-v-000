@@ -12,6 +12,7 @@ class Artist
   def add_song(song)
     @songs << song
     song = self.song
+    @genres << songs.name
 
     #binding.pry
 
