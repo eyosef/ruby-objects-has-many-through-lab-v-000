@@ -10,9 +10,10 @@ class Song
 
   def genre(song)
 
+
   end
 
-  def artist
+  def artist(song)
   end
 
 end
