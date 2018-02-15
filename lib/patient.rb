@@ -7,6 +7,7 @@ class Patient
   end
 
   def add_appointment(appointment)
+    (appointment)
   end
 
   def doctors
