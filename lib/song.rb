@@ -8,6 +8,7 @@ class Song
     @artist = []
     @genre = genre
     genre.add_songs(self)
+    artist.add_songs(self)
   end
 
   def genre(genre)
