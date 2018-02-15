@@ -12,7 +12,7 @@ class Song
   end
 
   def artist
-    artist.add_songs(self)
+    #artist.add_songs(self)
   end
 
 end
