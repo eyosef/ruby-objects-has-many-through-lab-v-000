@@ -23,8 +23,8 @@ class Artist
     @songs
   end
 
-  def genres
-    
+  def genres(genre)
+
   end
 
 end
