@@ -9,7 +9,7 @@ class Artist
     @genres = []
   end
 
-  def add_song
+  def add_song(song=nil)
     @songs << song
     song = self.songs #FIX
     #@genres << songs.name
